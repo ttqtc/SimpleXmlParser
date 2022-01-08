@@ -1,5 +1,5 @@
 # SimpleXmlParser
-A simple parser for xml and without external dependencies.
+A simple xml parser with no external dependencies and no creation of extra objects.
 
 Comments and tag will be filtered.
 
