@@ -90,7 +90,6 @@ public class SimpleXmlParser {
                 return i;
             }
         }
-        //<!--新的预览环境 -->
         if (isNoteBegin(s, i)) {
             i = i + NOTE_L;
             while (!isNoteEnd(s, i)) {
