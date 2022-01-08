@@ -1,5 +1,5 @@
 # SimpleXmlParser
-A simple xml parser
+A simple parser for xml and without external dependencies.
 
 Comments and tag will be filtered.
 
@@ -9,13 +9,13 @@ Comments and tag will be filtered.
 ## How to use it
 
 ```java
-String xml = "<xml>... something xml comtent";
+String xml = "<xml>... some xml comtent";
 Map<String,Object> map = SimpleXmlParser.parse(xml);
 ```
   
 ## Example
  
-xml content like:
+The content of XML is like this:
   
 ```xml
   <xml>
@@ -54,7 +54,7 @@ xml content like:
     </SendLocationInfo>
 </xml>
 ```
-parse result map for the xml:
+The parsing result of this XML:
 
 ```json
 {
